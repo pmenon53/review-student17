@@ -1,0 +1,7 @@
+************************************************************************
+
+Welcome to <%= $facts['networking']['fqdn'] %>!!!
+
+This is a <%= $facts['kernel'] %> system running <%= $facts['os']['name'] %> <%= $facts['os']['release']['major'] %>.<%= $facts['os']['release']['minor'] %>.
+
+************************************************************************
